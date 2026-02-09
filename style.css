@@ -1,0 +1,30 @@
+RESET DE CONFIGURAÇÕES GERAIS PARA OS NAVEGADORES
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(40, 71, 40, 0.404);
+    background-image: url("assets/photo-1729575846509-0ed233b0c2b0.avif");
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    color: rgb(124, 62, 4);
+    font-size: 40px;
+    margin: 20px;
+}
+
+p {
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
