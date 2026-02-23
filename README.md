@@ -14,6 +14,9 @@ git commit ~m "comandos basicos do git."
 4. Enviar alterações para GitHub:
 git push
 
+5. Comando caso estiver na pasta documento:
+   cd (tab)
+
 
 ## Branch
 
