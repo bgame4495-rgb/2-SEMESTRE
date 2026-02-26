@@ -1,0 +1,50 @@
+/* Terceira Pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: rgb(51, 23, 23) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: arial ;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+img {
+    width: 200px;
+    height: auto;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: arial ;
+}
+
+p{  
+    padding: 30px auto;
+    text-align: left;
+}
+
+button{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 30px;
+    border-radius: 30px;
+}
