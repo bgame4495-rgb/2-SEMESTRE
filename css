@@ -18,7 +18,23 @@ body {
 h1{
     text-align: center;
     font-size: 60px;
-    font-family: arial ;
+    font-family: italic ;
+    color: aliceblue;
+}
+
+h3 {
+    text-align: right;
+    font-size: 20px;
+    font-family: italic;
+    color: aliceblue;
+}
+
+h5{
+    text-align: right;
+    font-size: small;
+    font-family: italic;
+    color: white
+    
 }
 
 .logo {
@@ -27,19 +43,13 @@ h1{
     gap: 20px
 }
 img {
-    width: 200px;
+    width: 150px;
     height: auto;
-}
-h1{
-    text-align: center;
-    font-size: 60px;
-    font-family: arial ;
+    align-items: center;
 }
 
-p{  
-    padding: 30px auto;
-    text-align: left;
-}
+
+
 
 button{
     display: block;
@@ -49,8 +59,39 @@ button{
     border-radius: 30px;
 }
 
-.botao-de-reserva {
-    background-color: rgba(14, 75, 33, 0.801);
-    color: rgb(219, 14, 14);
-    padding: 12px 24;
-    border: none;
+.imagem-de-lado {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 40px;
+   padding: 20px;
+   width: 600px;
+   height: 600px;
+
+}
+
+.imagem-do-lado {
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.texto-lado {
+    width: 45%;
+    color:aliceblue
+}
+h2{
+    text-align: right;
+    font-size: small;
+    font-family: italic;
+    color: rgb(223, 11, 11)
+}
+
+p{  
+    
+    padding-right: 0px ;
+    text-align: left;
+    color: rgb(0, 108, 202);
+    line-height: 1.6;
+}
