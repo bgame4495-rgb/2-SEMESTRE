@@ -12,11 +12,12 @@
 <div class="LOGO">
     <img src="assets/logodorestaurante.png" alt="LOGO">
    
-    <h1>Reserva</h1>
+    <h1>Faça sua Reserva</h1>
+    <h5>Encontre a sua Reserva</h5>
 
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse placeat repellendus aperiam possimus enim deserunt labore dolorum qui tempora, numquam, iure nihil autem. Eum eius alias, suscipit vel atque aut!
-    </p>
+    <h4>
+        Uma viagem aos sabores da Itália espera por você
+    </h4>
     
     
     
@@ -25,6 +26,15 @@
         <a href="index.html">Primeira Pagina</a>
         <a href="segunda-pagina.html">segunda-pagina</a>
     </button>
+
+<div class="botao-de-Reserva">
+    <button>
+        Reservar 
+    </button>
+
+</div> 
+    
+
 <!-- link -->
     <a href="http://italiarestaurant.com"   target="_blank">Google</a>
     
