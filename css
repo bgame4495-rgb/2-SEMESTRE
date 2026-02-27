@@ -48,3 +48,9 @@ button{
     padding: 5px 30px;
     border-radius: 30px;
 }
+
+.botao-de-reserva {
+    background-color: rgba(14, 75, 33, 0.801);
+    color: rgb(219, 14, 14);
+    padding: 12px 24;
+    border: none;
