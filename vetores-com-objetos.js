@@ -1,3 +1,5 @@
+const { useActionState } = require("react")
+
 // Exemplo com vetor de nomes:
 const listaDeNomes = ["Ana", "Maria", "Joana"]
 
@@ -48,3 +50,15 @@ console.log("\nFiltrando numeros pares")
 const pares = numeros.filter(numeros => numeros % 2 === 0)
 console.log("pares:", pares)
 
+console.log("\nNa lista de usuario, Mostre apenas os nomes")
+const nomes = listaDeUsuarios.map(u => u.nome)
+nomes.forEach(nome => console.log(`Nome: ${nome}`))
+
+console.log("\nNa lista de usuario, encontre um usuario")
+const usuarioEncotrado = listaDeUsuarios.find(u => u.nome === "Ana")
+console.log(usuarioEncotrado)
+console.log(`Nome: ${usuarioEncotrado.nome} \nIdade: ${usuarioEncotrado.idade}`)
+
+console.log("\nNa lista de usuario, encontre um usuario com a idade 45 anos")
+const usuario45 = listaDeUsuariosPORIDADE.find(u=> u.idade === 45)
+console.log(`Nome: ${listaD  esuariosPORIDADE.nome} \nIdade: ${listaDeUsuariosPORIDADE.idade}`)
