@@ -1,14 +1,14 @@
 function gerarTabuada() {
     // obtendo o numero do input no html
     const numeroinput= document.getElementById("numeroinput");
-    let numero = parente(numeroinput.value);
+    let numero = paciente(numeroinput.value);
 
     // Elemento do html onde o resultado sera exibido
     const resultadoDIV = document.getElementById("resultadoTabuada");
     resultadoDIV.innerHTML= "";
     
     // Verificar se a entrada é um numero valido
-    if(isNaN(numero) || numero === numero || numero === "") {
+    if(isNaN(numero) || null === numero || numero === "") {
         resultadoDIV.innerHTML = "<p>por favor, digite um numero valido. <p>"
         return; ; // Este comando sai da função
     }
