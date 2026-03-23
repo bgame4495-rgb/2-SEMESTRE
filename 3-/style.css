@@ -1,0 +1,114 @@
+/* Importa uma fonte digital e uma fonte moderna */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #e0f2f1; /* Fundo Menta Pastel bem claro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #37474f;
+}
+
+/* Título com brilho leve de LED */
+h1 {
+    margin-bottom: 30px;
+    color: #006064; /* Azul Petróleo Escuro */
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(77, 208, 225, 0.5); /* Brilho Ciano */
+    font-family: "Poppins", sans-serif;
+}
+
+/* Container principal (Painel do Gadget) */
+.container {
+    background: #ffffff; /* Fundo puro para contraste */
+    padding: 40px;
+    border-radius: 30px; /* Bordas bem arredondadas, estilo gadget */
+    
+    /* Efeito de profundidade (Neomorfismo suave) */
+    box-shadow: 10px 10px 20px #beccca, 
+                -10px -10px 20px #ffffff;
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 420px;
+}
+
+/* Estilo das Labels (Rótulos) */
+label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #006064;
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+
+/* Campos de entrada (Visores Digitais) */
+input[type="number"] {
+    padding: 15px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    
+    /* Fonte digital para os números */
+    font-family: 'Orbitron', sans-serif;
+    color: #e91e63; /* Rosa Pastel Vibrante para os números */
+    background-color: #fafafa;
+    
+    /* Efeito de campo 'afundado' */
+    box-shadow: inset 5px 5px 10px #e0e0e0, 
+                inset -5px -5px 10px #ffffff;
+    
+    transition: all 0.3s ease;
+}
+
+/* Placeholder com cor suave */
+input[type="number"]::placeholder {
+    color: #cfd8dc;
+    font-family: 'Poppins', sans-serif; /* Placeholder usa fonte normal */
+}
+
+/* Destaque ao focar no campo */
+input[type="number"]:focus {
+    outline: none;
+    box-shadow: inset 3px 3px 6px #d1d1d1, 
+                inset -3px -3px 6px #ffffff,
+                0 0 10px rgba(77, 208, 225, 0.4); /* Brilho de foco */
+}
+
+/* Botão de Calcular (Botão Físico de Gadget) */
+button {
+    padding: 18px;
+    background: #ffab91; /* Pêssego Pastel */
+    color: white;
+    border: none;
+    border-radius: 50px; /* Botão ovalado */
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+    /* Efeito de botão 'saltado' */
+    box-shadow: 5px 5px 10px #cfbeba, 
+                -5px -5px 10px #ffffff;
+    
+    transition: all 0.2s ease;
+}
+
+/* Efeito Hover (Brilho e interação) */
+button:hover {
+    background: #ffccbc; /* Pêssego mais claro */
+    box-shadow: 7px 7px 15px #cfbe;
+}
