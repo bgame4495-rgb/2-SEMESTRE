@@ -1,0 +1,84 @@
+/* Configurações de Reset e Fonte */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Centraliza verticalmente na tela */
+    padding: 20px;
+}
+
+img {
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #1a73e8;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Estilização do Card (Container) */
+.container {
+    background-color: #f2f5b5de;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaço entre os elementos internos */
+}
+
+label {
+    font-weight: 600;
+    color: #444;
+    font-size: 1rem;
+}
+
+/* Estilização do Input */
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #1a73e8; /* Muda a cor ao clicar */
+}
+
+/* Estilização do Botão */
+button {
+    background-color: #1a73e8;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #1557b0;
+}
+
+button:active {
+    transform: scale(0.98); /* Efeito de clique */
+}
+
