@@ -1,0 +1,12 @@
+services:
+  frontend:
+    build: 
+    ports:
+      - "3000:3000"
+    volumes:
+        - .:/app
+        - /app/node_modules
+    environment:
+      - chokidar_usePolling=true # garante que o hot reload funcione mesmo em sistemas de arquivos que não suportam eventos de arquivo (como o Docker)
+    stdin_open: true
+    tty: true
